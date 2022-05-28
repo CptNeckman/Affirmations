@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Affirmations</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string name="welcomeText_ICan">Я могу</string>
+    <string name="welcomeText_IWant">Я хочу</string>
+    <string name="welcomeText_IWill">Я стану</string>
+    <string name="welcomeText_Button">Вперед!</string>
+
+</resources>
