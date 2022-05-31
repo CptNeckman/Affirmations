@@ -50,14 +50,28 @@
             android:text="@string/welcomeText_IWill"
             app:layout_constraintTop_toBottomOf="@id/welcomeText_ICan" />
 
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/welcomeText_Description"
+            android:textSize="22sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/welcomeText_IWill" />
+
         <Button
+            android:id="@+id/buttonNext"
             style="@style/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/welcomeText_Button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:text="@string/welcomeText_Button"/>
+            app:layout_constraintRight_toRightOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
